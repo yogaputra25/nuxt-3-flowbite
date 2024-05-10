@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted } from "vue";
-import { FwbButton, FwbModal } from "flowbite";
+import { initFlowbite } from "flowbite";
 
 // initialize components based on data attribute selectors
 onMounted(() => {
