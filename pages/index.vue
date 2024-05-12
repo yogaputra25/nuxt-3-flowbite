@@ -20,7 +20,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
+  <div
+    class="bg-white dark:bg-gray-900 dark:before:fixed dark:before:-z-50 dark:before:inset-0 dark:before:bg-gray-950/50"
+  >
     <div class="flex justify-center p-4">
       <button
         @click="modalInit.show()"
