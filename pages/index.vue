@@ -19,6 +19,8 @@ onMounted(() => {
 });
 </script>
 
+<style></style>
+
 <template>
   <div
     class="bg-white dark:bg-gray-900 dark:before:fixed dark:before:-z-50 dark:before:inset-0 dark:before:bg-gray-950/50"
@@ -33,6 +35,143 @@ onMounted(() => {
       >
         Show modal
       </button>
+    </div>
+    <div
+      class="justify-center columns-1 lg:columns-3 md:columns-2 bg-slate-600"
+    >
+      <div
+        class="max-w-sm flex mx-6 my-2 flex-row md:flex-col justify-center bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <div class="m-auto md:mx-0 mx-2">
+          <a href="#">
+            <img class="rounded-t-md" src="/1.webp" alt="" />
+          </a>
+        </div>
+
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Noteworthy technology acquisitions 2021
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="max-w-sm flex mx-6 my-2 flex-row md:flex-col justify-center bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <div class="m-auto md:mx-0 mx-2">
+          <a href="#">
+            <img class="rounded-t-md" src="/1.webp" alt="" />
+          </a>
+        </div>
+
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Noteworthy technology acquisitions 2021
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div
+        class="max-w-sm flex mx-6 my-2 flex-row md:flex-col justify-center bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <div class="m-auto md:mx-0 mx-2">
+          <a href="#">
+            <img class="rounded-t-md" src="/1.webp" alt="" />
+          </a>
+        </div>
+
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Noteworthy technology acquisitions 2021
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
     </div>
 
     <div
@@ -116,6 +255,29 @@ onMounted(() => {
           </div>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="max-w-sm p-5 justify-center bg-slate-100 flex flex-col">
+    <p class="text-start">Well, let me tell you something, ...</p>
+    <p class="break-after-column">Sure, go ahead, laugh...</p>
+    <p>Maybe we can live without...</p>
+    <p>Look. If you think this is...</p>
+    <div class="flex justify-center"></div>
+    <button
+      class="bg-slate-400 rounded-lg text-lg p-2 text-white font-bold hover:bg-gray-800"
+      type="button"
+    >
+      Cek data
+    </button>
+
+    <div class="flex h-20 bg-slate-500 justify-center">
+      <button
+        class="bg-slate-400 rounded-lg text-lg p-2 text-white font-bold hover:bg-gray-800"
+        type="button"
+      >
+        Cek data
+      </button>
     </div>
   </div>
 </template>
